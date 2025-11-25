@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Rahasia Ekonomi - Blog eksklusif yang membahas ekonomi makro, pasar finansial, dan analisis investasi mendalam.">
+    <title>Rahasia Ekonomi | Wawasan Pasar & Makro</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <span class="logo-icon">RE</span>
+                <span class="logo-text">Rahasia Ekonomi</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#market-updates" class="nav-link">Market Updates</a></li>
+                    <li><a href="#macro" class="nav-link">Makro Ekonomi</a></li>
+                    <li><a href="#investing" class="nav-link">Investasi</a></li>
+                    <li><a href="#dictionary" class="nav-link">Kamus</a></li>
+                    <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <span class="hero-label">Analisis Mendalam</span>
+                <h1 class="hero-title">Mengungkap Dinamika <br> <span class="text-gradient">Ekonomi Global</span></h1>
+                <p class="hero-subtitle">Panduan eksklusif untuk memahami pergerakan pasar, kebijakan moneter, dan
+                    peluang investasi masa depan.</p>
+                <div class="hero-actions">
+                    <a href="#latest" class="btn btn-primary">Baca Artikel Terbaru</a>
+                    <a href="#newsletter" class="btn btn-outline">Langganan Newsletter</a>
+                </div>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <section id="latest" class="section latest-articles">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Wawasan Terbaru</h2>
+                    <a href="#" class="view-all">Lihat Semua -></a>
+                </div>
+
+                <div class="article-grid" id="article-grid">
+                    <!-- Articles will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="dictionary" class="section dictionary-section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Kamus Finansial & Makro</h2>
+                    <div class="search-box">
+                        <input type="text" id="dictionary-search" placeholder="Cari istilah...">
+                    </div>
+                </div>
+                <div class="dictionary-grid" id="dictionary-grid">
+                    <!-- Dictionary terms injected here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="article-detail" class="section article-detail" style="display: none;">
+            <div class="container">
+                <a href="#" class="back-link"><- Kembali ke Beranda</a>
+                        <article class="full-article">
+                            <header class="article-header">
+                                <div class="article-meta">
+                                    <span id="detail-category" class="category">Category</span> • <span id="detail-date"
+                                        class="date">Date</span>
+                                </div>
+                                <h1 id="detail-title" class="article-title">Article Title</h1>
+                            </header>
+                            <div id="detail-image" class="article-image"></div>
+                            <div id="detail-content" class="article-body">
+                                <!-- Content injected here -->
+                            </div>
+                        </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">RE</span>
+                    <span class="logo-text">Rahasia Ekonomi</span>
+                </div>
+                <p class="footer-desc">Sumber terpercaya untuk analisis ekonomi makro dan strategi pasar finansial.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Kategori</h4>
+                    <a href="#">Makro</a>
+                    <a href="#">Saham</a>
+                    <a href="#">Obligasi</a>
+                    <a href="#">Kripto</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <a href="#">Tentang</a>
+                    <a href="#">Kontak</a>
+                    <a href="#">Karir</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2025 Rahasia Ekonomi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
