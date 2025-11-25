@@ -19,7 +19,14 @@ Proyek ini dibangun menggunakan teknologi web standar yang ringan dan cepat:
 *   **CSS3:** Styling kustom dengan desain modern, dark mode, dan efek glassmorphism.
 *   **Vanilla JavaScript:** Logika interaktif tanpa ketergantungan pada framework berat, memastikan performa maksimal.
 
-## Cara Menjalankan
+## Akses Website
+
+Website ini sudah dapat diakses secara online di:
+**[https://rahasiaekonomi.me](https://rahasiaekonomi.me)**
+
+## Cara Menjalankan (Lokal)
+
+Jika Anda ingin menjalankan proyek ini di komputer Anda sendiri:
 
 1.  Clone repositori ini:
     ```bash
